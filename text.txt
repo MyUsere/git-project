@@ -75,7 +75,7 @@ git log - просмотр истории коммитов
  вывод списка коммитов: 
 
  git log --pretty=format:"%h - %s "
-git log --pretty=format:"%h - %s :%ad [ %an  ] "
+git log --pretty=format:"%h - %s : %ad [ %an  ] "
 
 Изменить сообщение коммита:
 
