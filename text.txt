@@ -61,6 +61,8 @@ git rm --cached index.html - прекращение слежения за фай
  или
 git checkout -b rest
 
+переименование ветки:
+git branch --move старое имя новое имя
 // ---------------------------- //
 
 совмещение веток:
@@ -76,6 +78,9 @@ git log - просмотр истории коммитов
 
  git log --pretty=format:"%h - %s "
 git log --pretty=format:"%h - %s : %ad [ %an  ] "
+
+Просмотр последнего коммита веток в Git:
+git branch -v
 
 Изменить сообщение коммита:
 
