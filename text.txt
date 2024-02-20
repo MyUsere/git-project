@@ -123,3 +123,31 @@ git config --global alias.form log --pretty=format:"%h - %s "
 git form
 
 // -------------------------------------- //
+Создание внешнего репозитория на сайте GitHub
+https://github.com/MyUsere/git-project - ссылка на
+внешний репозиторий githab
+
+Добавление внешних репозиториев в Git:
+git remote add origin https://github.com/MyUsere/git-project
+
+Просмотр информации внешнего репозитория в Git:
+git remote show origin
+
+Получение имени внешнего репозитория в Git:
+git remote - выведет "origin"
+
+Адреса внешнего репозитория в Git:
+git remote -v
+выведет:
+origin  https://github.com/MyUsere/git-project.git (fetch)
+origin  https://github.com/MyUsere/git-project.git (push)
+
+Переименование внешнего репозитория в Git:
+git remote rename (старое) ( новое название)
+
+проверка нового имени:
+git remote
+
+Удаление внешнего репозитория в Git:
+git remote rm (имя репозитория)
+
